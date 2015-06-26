@@ -1,5 +1,6 @@
 package net.genesishub.gFeaturesBungee;
 
+import net.genesishub.gFeaturesBungee.Commands.SlashHub;
 import net.md_5.bungee.api.plugin.Plugin;
 
 public class Listeners extends Plugin{
@@ -7,6 +8,7 @@ public class Listeners extends Plugin{
 	public void onEnable(){
 		getLogger().info("_______________________________________________");
 		getLogger().info("Enabling gFeaturesBungee version " + version + "...");
+		getProxy().getPluginManager().registerCommand(this, new SlashHub());
 		getLogger().info("Enabled!");
 		getLogger().info("_______________________________________________");
 	}
@@ -16,4 +18,5 @@ public class Listeners extends Plugin{
 		getLogger().info("Disabled!");
 		getLogger().info("_______________________________________________");
 	}
+	
 }
