@@ -1,35 +1,4 @@
 name: gFeatures
-main: net.genesishub.gFeatures.Listeners
-version: 2.5.5
-load: STARTUP
-commands:
-   gFeatures:
-     description: gFeatures core command.
-     aliases: [gf, gFeature]
-     permission: gFeatures.command.gFeatures
-     usage: Syntax error! Do /gFeatures help for help.
-   GenesisBackup:
-     description: gBackup core command.
-     aliases: [gBackup, GenesisBackup, gb]
-     permission: gFeatures.command.gBackup
-     usage: Syntax error! Do /gBackup help for help.
-   test:
-     description: Test.
-     permission: gFeatures.command.Test
-     usage: Meh.
-   gMusic:
-     description: gMusic core command.
-     aliases: [play, song, music]
-     usage: Syntax error! Do /gMusic help for help.
-   gWars:
-     description: gWars core command.
-     aliases: [play, song, music]
-     permission: gWars
-     usage: Syntax error! Do /gWars help.
-   plugins:
-     description: Shows the plugins on the server.
-     aliases: [pl, plugin]
-   clupic:
-      description: Core command for clupic!
-      usage: Syntax error! Do /clupic help for help.
-softdepend: [Skript, CrackShot, Factions]
+main: net.genesishub.gFeaturesBungee.Listeners
+version: 1.0.0
+author: _InDev_
