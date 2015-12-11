@@ -1,5 +1,6 @@
 # gFeatures2
-GenesisHub's Main custom Plugins.
+GenesisHub's Main custom Plugins
+THIS REPO IS NO LONGER USED. Go to https://github.com/EstiNet/gFeatures/
 
 ##Version
 gFeatures Core/API: 2.5.2
@@ -25,7 +26,7 @@ gFeatures2 is under "net.genesishub.*" & "net.dolphinbox.*" and is currently in 
 ## Copyright
 GenesisHub and gFeatures are property of GenesisHub.
 
-© 2015 GenesisHub & DolphinBox - All Rights Reserved.
+Â© 2015 GenesisHub & DolphinBox - All Rights Reserved.
 
 http://genesishub.net/
 http://dolphinbox.net/
